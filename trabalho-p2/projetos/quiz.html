@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Bíblico</title>
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Bíblico</h1>
+        <p>Teste seus conhecimentos sobre a criação no livro de Gênesis.</p>
+    </header>
+
+    <main>
+        <img src="../imagens/quiz.webp" alt="Imagem do Projeto Quiz" class="projeto-imagem">
+
+        <section id="pergunta" class="quiz-container">
+            <p id="enunciado"></p>
+
+            <div class="alternativas">
+                <label><input type="radio" name="resposta" value="1"> <span id="alt1"></span></label>
+                <label><input type="radio" name="resposta" value="2"> <span id="alt2"></span></label>
+                <label><input type="radio" name="resposta" value="3"> <span id="alt3"></span></label>
+                <label><input type="radio" name="resposta" value="4"> <span id="alt4"></span></label>
+
+            </div>
+        </section>
+
+        <div id="botoes" class="botoes">
+            <button onclick="EnviarResposta()">Responder</button>
+            <button onclick="ProximaQuestao()">Próxima</button>
+        </div>
+
+        <p id="feedback" class="feedback"></p>
+
+        <a href="../index.html" class="voltar">← Voltar à Página Inicial</a>
+    </main>
+
+    <script src="../js/quiz.js"></script>
+</body>
+</html>

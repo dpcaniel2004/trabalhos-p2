@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="../css/conversor.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de Temperatura</h1>
+        <p>Converta valores entre Celsius e Fahrenheit com facilidade.</p>
+    </header>
+
+    <main>
+        <img src="../imagens/conversor.webp" alt="Imagem do Projeto Conversor" class="projeto-imagem">
+
+        <section class="formulario">
+            <input type="number" id="entrada" placeholder="Digite o valor da temperatura">
+            <div class="botoes">
+                <button onclick="converterParaCelsius()">Converter para °C</button>
+                <button onclick="converterParaFahrenheit()">Converter para °F</button>
+            </div>
+            <input type="text" id="saida" readonly>
+        </section>
+
+        <a href="../index.html" class="voltar">← Voltar à Página Inicial</a>
+    </main>
+
+    <script src="../js/conversor.js"></script>
+</body>
+</html>

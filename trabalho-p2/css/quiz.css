@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdf5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #673ab7;
+    color: white;
+    padding: 1.5rem 1rem;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+.projeto-imagem {
+    max-width: 300px;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin: 1.5rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-container {
+    margin-bottom: 1.5rem;
+}
+
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+input[type="radio"] {
+    transform: scale(1.2);
+}
+
+.botoes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+button {
+    background-color: #673ab7;
+    color: white;
+    padding: 0.75rem 1.25rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5e35b1;
+}
+
+.feedback {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: #673ab7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+}
